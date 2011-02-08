@@ -22,12 +22,8 @@ OpenPNE3/lib/vendor/Zend をzipのlibrary/Zendにそっくり差し替える。
 http://p.pne.jp/d/201101140208.png
 
 ◆スクリーンショット
-DEMO動画
-http://www.youtube.com/watch?v=Q-9exOy681Q
-
-このようなシートを自動的につくる
-http://p.pne.jp/d/201101140152.png
-Tと表示されているコミュニティに参加していることを示している。
+Demo動画
+http://www.youtube.com/watch?v=4sAosd06BUA
 
 ◆使い方
 まず以下のタスクを実行し、OpenPNEから現在のコミュニティ参加状況をスプレッドシートにコピーする。
