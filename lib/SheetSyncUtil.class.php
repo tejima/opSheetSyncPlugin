@@ -2,7 +2,6 @@
 class SheetSyncUtil
 {
   public static function member2sheet(){
-    //$member_list = array("tejima@tejimaya,com","mamoru@tejimaya.com","o-hira@tejimaya.com","yamada@tejimaya.com");
     $member_list = Doctrine::getTable('Member')->findAll();
 
 
