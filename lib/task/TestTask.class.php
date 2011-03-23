@@ -1,5 +1,5 @@
 <?php
-class Sheet2OPTask extends sfBaseTask
+class TestTask extends sfBaseTask
 {
   protected function configure()
   {
@@ -8,8 +8,8 @@ class Sheet2OPTask extends sfBaseTask
     mb_internal_encoding("utf-8");
 
     $this->namespace        = 'zuniv.us';
-    $this->name             = 'sheet2op';
-    $this->briefDescription = 'Google SpreadSheet 2 OpenPNE';
+    $this->name             = 'test.op2sheet';
+    $this->briefDescription = 'test functino for op2sheet';
     $this->detailedDescription = <<<EOF
 The [feed-reader|INFO] task does things.
 Call it with:
@@ -22,8 +22,7 @@ EOF;
   protected function execute($arguments = array(), $options = array())
   {
     $databaseManager = new sfDatabaseManager($this->configuration);
-    echo "sync\n";
-    SheetSyncUtil::community_sync();
+    SheetSyncUtil::friend2sheet();
   }
 }
 
